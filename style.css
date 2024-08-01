@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 200;
+}
+
+.main-div{
+   background-color: aquamarine;
+   width: 100vw;
+   height: 100vh;
+   display: grid;
+   place-items: center;
+}
+
+.inner-div{
+    background-color: whitesmoke;
+    width: 40vw;
+    padding: 3rem 8rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem -0.7rem black;
+
+}
+
+.inner-div h2{
+ font-size: 1.5rem;   
+ font-weight: bold;
+ margin: 2rem 0 2rem 0;
+}
+
+.inner-div li{
+    font-size: 1rem;
+    margin-top: 1rem;
+    list-style: none;
+}
+input{
+    cursor: pointer;
+}
+
+#showScore h3{
+    font-size: 2rem ;
+    text-align: center;
+
+}
+
+#submit,
+ .btn{
+    padding: 1rem 3rem;
+    outline: none;
+    font-size: 14px;
+    display: block;
+    margin: auto;
+    border:none;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #fff;
+    background-color: darkblue;
+    margin-top: 2rem;
+}
+#submit:hover{
+    background-color: darkcyan;
+}
+#showScore{
+    background-color: wheat;
+    margin-top: 2rem;
+    padding: 2rem 3rem;
+    box-shadow: 0 1rem 1rem -0.7rem black;
+}
+.scoreArea{
+    display: none;
+}
+
